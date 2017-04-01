@@ -1,5 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
-<html xmlns="http://www.w3.org/1999/xhtml">  
+<html>  
 <head>  
     <title>百度地图API显示多个标注点带提示的代码</title>  
     <!--css-->  
@@ -102,7 +101,7 @@
                 //异步调用百度js  
                 function map_load() {  
                     var load = document.createElement("script");  
-                    load.src = "http://api.map.baidu.com/api?v=2.0&ak=K3yDzvlwWbDlvSQyvwCLd0l5&callback=map_init";  
+                    load.src = "http://api.map.baidu.com/api?v=1.4&callback=map_init";  
                     document.body.appendChild(load);  
                 }  
                 window.onload = map_load;  
